@@ -1,0 +1,20 @@
+<html>
+	<body>
+		<div id="app-6">
+			<p>{{ message }}</p>
+			<input type="checkbox" value="One" v-model="message">
+			<input type="checkbox" value="Two" v-model="message">
+			<input type="checkbox" value="Three" v-model="message">
+		</div>
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+	<script>
+		var app6 = new Vue({
+			el: '#app-6',
+			data: {
+				message: [],
+				age: 0
+			}
+		})
+	</script>
+</html>
